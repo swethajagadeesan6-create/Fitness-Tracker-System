@@ -1,6 +1,6 @@
 from groq import Groq
 
-API_KEY = "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"
+API_KEY = "os.getenv("GROQ_API_KEY")"
 
 def fitness_assistant(activity, duration, calories):
 
